@@ -3,7 +3,7 @@ title: "Showing the great tragedy of Auschwitz through quantification and visual
 subtitle: "Analysis of data on the religion of Auschwitz victims by using Shiny APPs"
 author: 
   - Pengyu Sui
-thanks: "Code and data are available at: . The shiny web app can be accessed at: https://3i9jvi-simon0202sui.shinyapps.io/Visualization_of_Auschwitz/"
+thanks: "Code and data are available at:https://github.com/simon0202sui/Showing-the-great-tragedy-of-Auschwitz-through-quantification-and-visualization.git . The shiny web app can be accessed at: https://3i9jvi-simon0202sui.shinyapps.io/Visualization_of_Auschwitz/"
 date: today
 date-format: long
 abstract: "This study employs an interactive approach to illustrate the scale of the Holocaust's atrocities at Auschwitz, focusing on the religious affiliations of the victims. By harnessing the capabilities of Shiny applications in R, we dissect and visualize the available data to provide a comprehensive analysis of the religious diversity of those who suffered under this regime of terror. The application offers users an intuitive platform to engage with the data, facilitating a deeper understanding of the magnitude of loss experienced by each religious group. We can clearly see that ninety percent of the victims were of Jewish origin, so it can be said that Auschwitz was a targeted genocide."
