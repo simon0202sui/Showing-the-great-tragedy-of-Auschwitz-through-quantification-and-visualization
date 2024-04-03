@@ -1,0 +1,42 @@
+---
+title: "Showing the great tragedy of Auschwitz through quantification and visualization"
+subtitle: "Analysis of data on the religion of Auschwitz victims by using Shiny APPs"
+author: 
+  - Pengyu Sui
+thanks: "Code and data are available at: https://github.com/AbbassSleiman/shiny_essay. The shiny web app can be accessed at: https://3i9jvi-simon0202sui.shinyapps.io/Visualization_of_Auschwitz/"
+date: today
+date-format: long
+abstract: "This study employs an interactive approach to illustrate the scale of the Holocaust's atrocities at Auschwitz, focusing on the religious affiliations of the victims. By harnessing the capabilities of Shiny applications in R, we dissect and visualize the available data to provide a comprehensive analysis of the religious diversity of those who suffered under this regime of terror. The application offers users an intuitive platform to engage with the data, facilitating a deeper understanding of the magnitude of loss experienced by each religious group. We can clearly see that ninety percent of the victims were of Jewish origin, so it can be said that Auschwitz was a targeted genocide."
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+# Introduction
+
+The horrors of the Holocaust are distilled in the history of Auschwitz, the infamous Nazi concentration and extermination camp. Among its victims were individuals of different religious backgrounds, with each group suffering its own pain and loss. In analyzing the impact of the Holocaust, it is important to consider these different religious dimensions in order to fully understand the magnitude of the tragedy.
+
+My Shiny application [@citeshiny] was developed using the statistical programming language R [@citeR] to allow dynamic data exploration and real-time visualization and analysis. Users can filter and query datasets based on religious affiliation, and through the use of interactive charts, tables, and filters, users can see the number of people lost in each group and make comparisons, as well as visualize the data through bar charts that clearly present the data
+
+Subsequent sections will detail the construction of the Shiny application, the data handling process, the interactive features of the data representation, and the insights gleaned from this analysis.
+
+# Ethical Considerations in Data Analysis
+
+Since the source of the dataset I chose was a major event of historical significance, I had to take into account the necessary ethical considerations in utilizing this data in the analysis of that data. Since each data point is a victim whose life was destroyed by the Holocaust, the data must be comprehensive, counting each victim to the best of its ability, and while there will inevitably be omissions, careless omissions are disrespectful to the victims.
+Therefore instead of building a sample I chose to use data from the United States Holocaust Memorial Museum [@citeAuschwitzData], I created a Shiny web application that provides an interactive chart and table that allows users to view the victims of Auschwitz by religion, place of birth, and place of residence. This analysis was accomplished using R [@citeR] and its companion packages: tidyverse [@citetidyverse], shiny [@citeshiny], readr [@citereadr ], and rsconnect [@citersconnect], ggplot2 [@citeggplot2], dplyr [@citedplyr], DT [@citeDT].
+
+Drawing inspiration from Bouie's reflections [@citeBouie], as cited in leading publications, my approach to this analysis is underpinned by a profound respect for the data's inherent historical and cultural layers. In grappling with the Holocaust data — fraught with complexity and sensitivity — I strive to preserve the dignity and the narratives of those who perished. Since it is only respectful to the victims to remember and tell others about the catastrophe they have suffered, I have not retained incomplete information for the sake of data sifting, which is an ethical rather than a statistical generalization.
+
+# Conclusion
+
+The culmination of this project lies not just in the data collated or the interactive capabilities of the Shiny application, but in the broader narrative it conveys—one of loss, memory, and the enduring impact of historical atrocities. The application is not merely a tool for analysis; it serves as a digital memorial, a repository of the countless lives lost to the mechanizations of hate and systemic oppression. The insights gleaned from this study provide a stark visualization of the religious demographics within Auschwitz, highlighting the diversity of the victims and the universality of suffering.
+
+The development and deployment of this application embody a commitment to ethical data usage, ensuring that the stories of the Holocaust are told with the respect and gravitas they deserve. By making the data accessible and the analysis tangible, the application bridges the gap between historical record and personal engagement, offering a platform for reflection, education, and remembrance.
+
+In addressing the sensitivity of Holocaust data, the project reiterates the need for ethical considerations in data analysis. Each data point is more than a number; it represents a human life, a narrative in the tapestry of tragedy. The fact that data omissions were not deliberately avoided for the sake of statistical convenience honors the memory of the victims and underscores the importance of a comprehensive presentation of historical datasets.
+
+\newpage
+
+
+# References
+
